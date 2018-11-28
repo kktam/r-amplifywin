@@ -19,7 +19,7 @@
 				"s3TemplateURL": "https://s3.amazonaws.com/ramplifywin-20181120211028-deployment/amplify-cfn-templates/auth/ramplifywin-cloudformation-template.yml",
 				"logicalId": "authramplifywin"
 			},
-			"lastPushTimeStamp": "2018-11-24T15:11:31.515Z",
+			"lastPushTimeStamp": "2018-11-28T13:55:36.035Z",
 			"output": {
 				"AppClientSecret": "okerr70n19sc69joakd4n0ectn63kkedjcnjum1t86h00lultvs",
 				"UserPoolId": "us-west-2_GBJoW8vpv",
@@ -30,6 +30,22 @@
 				"UserPoolName": "ramplifywinddffc7d8_userpool_ddffc7d8"
 			},
 			"lastPushDirHash": "bTE06l57OYYRMxu/8io5FXaITcw="
+		}
+	},
+	"storage": {
+		"ramplifywinuserstore": {
+			"service": "S3",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/ramplifywin-20181120211028-deployment/amplify-cfn-templates/storage/s3-cloudformation-template.json",
+				"logicalId": "storageramplifywinuserstore"
+			},
+			"lastPushTimeStamp": "2018-11-28T13:55:36.042Z",
+			"output": {
+				"BucketName": "ramplifywinuserstore",
+				"Region": "us-west-2"
+			},
+			"lastPushDirHash": "o5ntTMm58vInEfhpnkyq/lJ/g+g="
 		}
 	}
 }

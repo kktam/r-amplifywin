@@ -127,6 +127,21 @@
 					"authRoleArn": "arn:aws:iam::186001529570:role/ramplifywin-20181120211028-authRole"
 				}
 			}
+		},
+		"storageramplifywinuserstore": {
+			"Type": "AWS::CloudFormation::Stack",
+			"Properties": {
+				"TemplateURL": "https://s3.amazonaws.com/ramplifywin-20181120211028-deployment/amplify-cfn-templates/storage/s3-cloudformation-template.json",
+				"Parameters": {
+					"bucketName": "ramplifywinuserstore",
+					"authPolicyName": "s3_amplify_9644c504",
+					"unauthPolicyName": "s3_amplify_9644c504",
+					"authRoleName": "ramplifywin-20181120211028-authRole",
+					"unauthRoleName": "ramplifywin-20181120211028-unauthRole",
+					"authPermissions": "rw",
+					"unauthPermissions": ""
+				}
+			}
 		}
 	},
 	"Outputs": {

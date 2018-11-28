@@ -3,8 +3,10 @@ import { Button } from 'react-bootstrap';
 import logo from './logo.svg';
 import './App.css';
 
-import { withAuthenticator } from 'aws-amplify-react'
-import { Auth } from 'aws-amplify'
+import { withAuthenticator } from 'aws-amplify-react';
+import { Auth } from 'aws-amplify';
+
+import StorageButton from './StorageButton';
 
 class App extends Component {
 
@@ -28,8 +30,8 @@ class App extends Component {
           >
             Learn React
           </a>
-        </header>
-        onPress={this.signOut}        
+          <StorageButton />            
+        </header>      
       </div>
     );
   }

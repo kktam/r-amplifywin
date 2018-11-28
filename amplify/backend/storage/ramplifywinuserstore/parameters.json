@@ -1,0 +1,9 @@
+{
+    "bucketName": "ramplifywinuserstore",
+    "authPolicyName": "s3_amplify_9644c504",
+    "unauthPolicyName": "s3_amplify_9644c504",
+    "authRoleName": "ramplifywin-20181120211028-authRole",
+    "unauthRoleName": "ramplifywin-20181120211028-unauthRole",
+    "authPermissions": "rw",
+    "unauthPermissions": ""
+}
