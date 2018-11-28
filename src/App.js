@@ -7,6 +7,7 @@ import { withAuthenticator } from 'aws-amplify-react';
 import { Auth } from 'aws-amplify';
 
 import StorageButton from './StorageButton';
+import S3ImageUpload from './S3ImageUpload';
 
 class App extends Component {
 
@@ -30,7 +31,8 @@ class App extends Component {
           >
             Learn React
           </a>
-          <StorageButton />            
+          <StorageButton />
+          <S3ImageUpload />          
         </header>      
       </div>
     );
