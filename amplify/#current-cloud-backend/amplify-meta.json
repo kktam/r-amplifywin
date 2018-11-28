@@ -1,14 +1,35 @@
 {
-    "providers": {
-        "awscloudformation": {
-            "AuthRoleName": "ramplifywin-20181120211028-authRole",
-            "UnauthRoleArn": "arn:aws:iam::186001529570:role/ramplifywin-20181120211028-unauthRole",
-            "AuthRoleArn": "arn:aws:iam::186001529570:role/ramplifywin-20181120211028-authRole",
-            "Region": "us-west-2",
-            "DeploymentBucketName": "ramplifywin-20181120211028-deployment",
-            "UnauthRoleName": "ramplifywin-20181120211028-unauthRole",
-            "StackName": "ramplifywin-20181120211028",
-            "StackId": "arn:aws:cloudformation:us-west-2:186001529570:stack/ramplifywin-20181120211028/c02c9f00-ed4b-11e8-9922-0293ffedadac"
-        }
-    }
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "ramplifywin-20181120211028-authRole",
+			"UnauthRoleArn": "arn:aws:iam::186001529570:role/ramplifywin-20181120211028-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::186001529570:role/ramplifywin-20181120211028-authRole",
+			"Region": "us-west-2",
+			"DeploymentBucketName": "ramplifywin-20181120211028-deployment",
+			"UnauthRoleName": "ramplifywin-20181120211028-unauthRole",
+			"StackName": "ramplifywin-20181120211028",
+			"StackId": "arn:aws:cloudformation:us-west-2:186001529570:stack/ramplifywin-20181120211028/c02c9f00-ed4b-11e8-9922-0293ffedadac"
+		}
+	},
+	"auth": {
+		"ramplifywin": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/ramplifywin-20181120211028-deployment/amplify-cfn-templates/auth/ramplifywin-cloudformation-template.yml",
+				"logicalId": "authramplifywin"
+			},
+			"lastPushTimeStamp": "2018-11-24T15:11:31.515Z",
+			"output": {
+				"AppClientSecret": "okerr70n19sc69joakd4n0ectn63kkedjcnjum1t86h00lultvs",
+				"UserPoolId": "us-west-2_GBJoW8vpv",
+				"AppClientIDWeb": "a3tnrvvcdc4vecicdahohrlfs",
+				"AppClientID": "k21enc4nqdq23ggp5gb14luql",
+				"IdentityPoolId": "us-west-2:5ac50882-8681-4c0c-8ba7-2cf724adb7c8",
+				"IdentityPoolName": "ramplifywinddffc7d8_identitypool_ddffc7d8",
+				"UserPoolName": "ramplifywinddffc7d8_userpool_ddffc7d8"
+			},
+			"lastPushDirHash": "bTE06l57OYYRMxu/8io5FXaITcw="
+		}
+	}
 }

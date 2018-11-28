@@ -1,8 +1,17 @@
 import React, { Component } from 'react';
+import { Button } from 'react-bootstrap';
 import logo from './logo.svg';
 import './App.css';
 
+import { withAuthenticator } from 'aws-amplify-react'
+import { Auth } from 'aws-amplify'
+
 class App extends Component {
+
+  signOut() {
+    Auth.signOut();
+  }
+
   render() {
     return (
       <div className="App">
@@ -20,9 +29,10 @@ class App extends Component {
             Learn React
           </a>
         </header>
+        onPress={this.signOut}        
       </div>
     );
   }
 }
 
-export default App;
+export default withAuthenticator(App, { includeGreetings: true });
