@@ -1,0 +1,13 @@
+{
+    "AppSyncApiName": "ramplifywin",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authramplifywin",
+            "Outputs.UserPoolId"
+        ]
+    },
+    "schemaGraphql": "s3://ramplifywin-20181120211028-deployment/amplify-appsync-files/schema.graphql.1544019699503",
+    "ResolverBucket": "ramplifywin-20181120211028-deployment",
+    "ResolverRootKey": "amplify-appsync-files",
+    "DeploymentTimestamp": "1544019699503"
+}

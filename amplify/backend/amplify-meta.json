@@ -19,7 +19,7 @@
 				"s3TemplateURL": "https://s3.amazonaws.com/ramplifywin-20181120211028-deployment/amplify-cfn-templates/auth/ramplifywin-cloudformation-template.yml",
 				"logicalId": "authramplifywin"
 			},
-			"lastPushTimeStamp": "2018-11-28T13:55:36.035Z",
+			"lastPushTimeStamp": "2018-12-05T14:25:46.550Z",
 			"output": {
 				"AppClientSecret": "okerr70n19sc69joakd4n0ectn63kkedjcnjum1t86h00lultvs",
 				"UserPoolId": "us-west-2_GBJoW8vpv",
@@ -40,12 +40,33 @@
 				"s3TemplateURL": "https://s3.amazonaws.com/ramplifywin-20181120211028-deployment/amplify-cfn-templates/storage/s3-cloudformation-template.json",
 				"logicalId": "storageramplifywinuserstore"
 			},
-			"lastPushTimeStamp": "2018-11-28T13:55:36.042Z",
+			"lastPushTimeStamp": "2018-12-05T14:25:46.552Z",
 			"output": {
 				"BucketName": "ramplifywinuserstore",
 				"Region": "us-west-2"
 			},
 			"lastPushDirHash": "o5ntTMm58vInEfhpnkyq/lJ/g+g="
+		}
+	},
+	"api": {
+		"ramplifywin": {
+			"service": "AppSync",
+			"providerPlugin": "awscloudformation",
+			"output": {
+				"securityType": "AMAZON_COGNITO_USER_POOLS",
+				"GraphQLAPIIdOutput": "ofzcneextfakbnpyj6fuj4kala",
+				"GraphQLAPIEndpointOutput": "https://dpl55di2ljbb7gww7klxa4zi2m.appsync-api.us-west-2.amazonaws.com/graphql",
+				"GraphQLAPIKeyOutput": "da2-gd5bdxo7d5gkvhd22i66lfr2gy",
+				"AuthCognitoUserPoolIdOutput": "us-west-2_GBJoW8vpv",
+				"AuthCognitoUserPoolNativeClientId": "See UserPool: us-west-2_GBJoW8vpv",
+				"AuthCognitoUserPoolJSClientId": "See UserPool: us-west-2_GBJoW8vpv"
+			},
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/ramplifywin-20181120211028-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+				"logicalId": "apiramplifywin"
+			},
+			"lastPushTimeStamp": "2018-12-05T14:25:49.863Z",
+			"lastPushDirHash": "jQ/YgUlQBdSta+mQujVPmzviUv0="
 		}
 	}
 }
