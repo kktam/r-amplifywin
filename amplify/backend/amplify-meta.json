@@ -19,7 +19,7 @@
 				"s3TemplateURL": "https://s3.amazonaws.com/ramplifywin-20181120211028-deployment/amplify-cfn-templates/auth/ramplifywin-cloudformation-template.yml",
 				"logicalId": "authramplifywin"
 			},
-			"lastPushTimeStamp": "2018-12-05T14:25:46.550Z",
+			"lastPushTimeStamp": "2018-12-12T17:28:04.438Z",
 			"output": {
 				"AppClientSecret": "okerr70n19sc69joakd4n0ectn63kkedjcnjum1t86h00lultvs",
 				"UserPoolId": "us-west-2_GBJoW8vpv",
@@ -40,7 +40,7 @@
 				"s3TemplateURL": "https://s3.amazonaws.com/ramplifywin-20181120211028-deployment/amplify-cfn-templates/storage/s3-cloudformation-template.json",
 				"logicalId": "storageramplifywinuserstore"
 			},
-			"lastPushTimeStamp": "2018-12-05T14:25:46.552Z",
+			"lastPushTimeStamp": "2018-12-12T17:28:04.441Z",
 			"output": {
 				"BucketName": "ramplifywinuserstore",
 				"Region": "us-west-2"
@@ -65,8 +65,8 @@
 				"s3TemplateURL": "https://s3.amazonaws.com/ramplifywin-20181120211028-deployment/amplify-cfn-templates/api/cloudformation-template.json",
 				"logicalId": "apiramplifywin"
 			},
-			"lastPushTimeStamp": "2018-12-05T14:25:49.863Z",
-			"lastPushDirHash": "jQ/YgUlQBdSta+mQujVPmzviUv0="
+			"lastPushTimeStamp": "2018-12-12T17:28:06.192Z",
+			"lastPushDirHash": "+Cavl4CPaIHswvtJYmLDyVpUoIM="
 		}
 	}
 }
